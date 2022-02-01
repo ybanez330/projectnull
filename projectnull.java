@@ -24,14 +24,14 @@ public class Main {
         if (numberOne % numberTwo == 0) //checks to see if the 1st number is evenly divisible by the second number.
         {
             //output message to state they are evenly divisible and there is no remainder.
-            System.out.print("These numbers are easily divisible.");
+            System.out.print("Your numbers are easily divisible.");
         }
         else if (numberOne % numberTwo != 0)
         {
             //remainder calculations
             remainder = numberOne % numberTwo;
             //output message to state there is a remainder.
-            System.out.print("Your remainder is " + remainder);
+            System.out.print("They are not evenly divisble - the remainder is " + remainder);
         }
     }
 }
